@@ -63,7 +63,9 @@ python calScore.py
 ## Result
 
 复现结果
+
 ![image](https://github.com/ml-master/MDS/assets/79297614/a3dcfbf4-cde1-4e2a-b6b2-970de71c7ee1)
 
+更详细结果请看/Results/
 
 
