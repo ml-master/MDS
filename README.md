@@ -27,7 +27,7 @@ PreSumm-dev生成的摘要结果放在\PreSumm-dev\results\
 ## Models
 论文提供的源码没有提供训练好的模型，本人训练好的模型包括重排序模型和摘要生成模型。
 
-本人训练好的模型下载https://drive.google.com/drive/folders/1Q4yjoCZYh-sN_mlCLa6mv3iFCWXKaiyH?usp=drive_link
+本人训练好的模型下载https://drive.google.com/drive/folders/1Q4yjoCZYh-sN_mlCLa6mv3iFCWXKaiyH?usp=sharing
 
 重排序模型为model_step_10000.pt
 
