@@ -13,6 +13,8 @@
 ## DataSets
 复现数据集包括原论文实验数据集multinews和课程提供数据集GossipCop
 
+multinews原始数据下载https://drive.google.com/drive/folders/1CtvQ0-YDvyDPzNcIIGmy1jC3GdFjVupD?usp=drive_link
+
 MDS-DR-master需要的数据可以通过下面链接下载后放在目录\MDS-DR-master\bert_data2\
 获取链接：https://drive.google.com/drive/folders/1d8VZ-TuPdQm3zkB5MwjnKhm_Xt0Z2DOe?usp=drive_link
 
