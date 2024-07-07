@@ -1,0 +1,34 @@
+[2024-05-15 23:07:18,113 INFO] * number of parameters: 120512513
+[2024-05-15 23:07:18,114 INFO] Start training...
+[2024-05-15 23:07:18,120 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                              | 1/10000 [00:02<6:00:27,  2.16s/it][2024-05-15 23:07:20,370 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                              | 2/10000 [00:02<3:31:00,  1.27s/it][2024-05-15 23:07:20,982 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                              | 3/10000 [00:03<2:41:23,  1.03it/s][2024-05-15 23:07:21,591 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                              | 4/10000 [00:04<2:17:23,  1.21it/s][2024-05-15 23:07:22,197 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                              | 5/10000 [00:04<2:04:07,  1.34it/s][2024-05-15 23:07:22,804 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                              | 6/10000 [00:05<2:01:35,  1.37it/s][2024-05-15 23:07:23,503 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                              | 7/10000 [00:05<1:54:58,  1.45it/s][2024-05-15 23:07:24,109 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                              | 8/10000 [00:06<1:50:41,  1.50it/s][2024-05-15 23:07:24,718 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                              | 9/10000 [00:07<1:48:15,  1.54it/s][2024-05-15 23:07:25,340 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                             | 10/10000 [00:07<1:46:19,  1.57it/s][2024-05-15 23:07:25,989 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                             | 11/10000 [00:08<1:49:36,  1.52it/s][2024-05-15 23:07:26,655 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                             | 12/10000 [00:09<1:46:52,  1.56it/s][2024-05-15 23:07:27,263 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                             | 13/10000 [00:09<1:45:04,  1.58it/s][2024-05-15 23:07:27,867 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                             | 14/10000 [00:10<1:43:44,  1.60it/s][2024-05-15 23:07:28,476 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                             | 15/10000 [00:10<1:46:52,  1.56it/s][2024-05-15 23:07:29,190 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                             | 16/10000 [00:11<1:46:59,  1.56it/s][2024-05-15 23:07:29,801 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|▏                                                                            | 17/10000 [00:12<1:45:08,  1.58it/s][2024-05-15 23:07:30,414 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|▏                                                                            | 18/10000 [00:12<1:44:25,  1.59it/s][2024-05-15 23:07:31,033 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|▏                                                                            | 18/10000 [00:13<2:04:10,  1.34it/s]
+Traceback (most recent call last):
+  File "D:\MDS-DR-master\src\train.py", line 155, in <module>
+    train_ext_doc(args, device_id)
+  File "D:\MDS-DR-master\src\train_extractive_doc.py", line 204, in train_ext
+    train_single_ext(args, device_id)
+  File "D:\MDS-DR-master\src\train_extractive_doc.py", line 254, in train_single_ext
+    trainer.train(train_iter_fct, args.train_steps, valid_iter_fct, test_iter_fct)
+  File "D:\MDS-DR-master\src\models\trainer_ext_doc.py", line 161, in train
+    self._gradient_accumulation(
+  File "D:\MDS-DR-master\src\models\trainer_ext_doc.py", line 312, in _gradient_accumulation
+    batch_stats = Statistics(float(loss.cpu().data.numpy()), normalization)
+KeyboardInterrupt

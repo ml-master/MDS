@@ -1,0 +1,1 @@
+{"valid_xent": 6.040785294065687, "valid_step": 10000, "valid_lr": 0, "_timestamp": 1718843894.1200125, "_runtime": 29573.763944625854, "_step": 19, "train_step": 10000, "train_xent": 0.045384463299686074, "train_lr": 2e-05, "_wandb": {"runtime": 29573}}

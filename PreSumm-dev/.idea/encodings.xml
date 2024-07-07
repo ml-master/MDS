@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/ConvertData.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/raw_data/gossip_reorder.txt" charset="GB18030" />
+    <file url="file://$PROJECT_DIR$/raw_data/gossip_src.txt" charset="GB18030" />
+    <file url="file://$PROJECT_DIR$/raw_data/gossip_tgt.txt" charset="GB18030" />
+    <file url="file://$PROJECT_DIR$/raw_data/raw_src.txt" charset="GB18030" />
+    <file url="file://$PROJECT_DIR$/raw_data/raw_src_reorder.txt" charset="GB18030" />
+    <file url="file://$PROJECT_DIR$/raw_data/raw_tgt.txt" charset="GB18030" />
+    <file url="file://$PROJECT_DIR$/results/reorder_ext_xsum_step-1.gold" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ConvertExt.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ConvertToGbk.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/calScore.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/example.py" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

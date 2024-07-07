@@ -1,0 +1,28 @@
+[2024-05-15 23:07:53,730 INFO] * number of parameters: 120512513
+[2024-05-15 23:07:53,730 INFO] Start training...
+[2024-05-15 23:07:53,731 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                              | 1/10000 [00:02<5:56:13,  2.14s/it][2024-05-15 23:07:56,008 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                              | 2/10000 [00:02<3:39:22,  1.32s/it][2024-05-15 23:07:56,680 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                              | 3/10000 [00:03<2:47:15,  1.00s/it][2024-05-15 23:07:57,298 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                              | 4/10000 [00:04<2:21:11,  1.18it/s][2024-05-15 23:07:57,905 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                              | 5/10000 [00:04<2:07:06,  1.31it/s][2024-05-15 23:07:58,522 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                              | 6/10000 [00:05<2:02:58,  1.35it/s][2024-05-15 23:07:59,222 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                              | 7/10000 [00:06<1:56:47,  1.43it/s][2024-05-15 23:07:59,842 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                              | 8/10000 [00:06<1:52:12,  1.48it/s][2024-05-15 23:08:00,453 INFO] Loading train dataset from ../bert_data2/multinews_doc_cls/train.pt, number of examples: 8
+  0%|                                                                              | 8/10000 [00:06<2:22:41,  1.17it/s]
+Traceback (most recent call last):
+  File "D:\MDS-DR-master\src\train.py", line 155, in <module>
+    train_ext_doc(args, device_id)
+  File "D:\MDS-DR-master\src\train_extractive_doc.py", line 204, in train_ext
+    train_single_ext(args, device_id)
+  File "D:\MDS-DR-master\src\train_extractive_doc.py", line 254, in train_single_ext
+    trainer.train(train_iter_fct, args.train_steps, valid_iter_fct, test_iter_fct)
+  File "D:\MDS-DR-master\src\models\trainer_ext_doc.py", line 161, in train
+    self._gradient_accumulation(
+  File "D:\MDS-DR-master\src\models\trainer_ext_doc.py", line 310, in _gradient_accumulation
+    loss.backward()
+  File "D:\anaconda\envs\SL\lib\site-packages\torch\_tensor.py", line 396, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "D:\anaconda\envs\SL\lib\site-packages\torch\autograd\__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

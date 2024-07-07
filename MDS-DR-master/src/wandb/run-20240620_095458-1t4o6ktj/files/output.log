@@ -1,0 +1,5 @@
+
+[2024-06-20 09:55:04,054 INFO] * number of parameters: 120512513
+[2024-06-20 09:56:59,706 INFO] Order distance at step 10000
+0.2975122480462459
+[2024-06-20 09:56:59,706 INFO] test xent: -0.581798 at step 10000

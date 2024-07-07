@@ -1,0 +1,82 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.9.0",
+    "heartbeatAt": "2024-05-16T12:08:00.291207",
+    "startedAt": "2024-05-16T12:07:59.097309",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-task",
+        "ext",
+        "-mode",
+        "test_doc",
+        "-input",
+        "valid",
+        "-batch_size",
+        "1000",
+        "-test_batch_size",
+        "5",
+        "-bert_data_path",
+        "../bert_data2/gossip_doc_cls/",
+        "-log_file",
+        "../logs/gossip.log",
+        "-model_path",
+        "../models/gossip_doc_cls",
+        "-test_from",
+        "../models/gossip_doc_cls/model_step_10000.pt",
+        "-sep_optim",
+        "true",
+        "-use_interval",
+        "true",
+        "-visible_gpus",
+        "1",
+        "-max_pos",
+        "512",
+        "-max_length",
+        "200",
+        "-alpha",
+        "0.95",
+        "-min_length",
+        "50",
+        "-result_path",
+        "../results2/gossip_doc_cls/valid"
+    ],
+    "state": "running",
+    "program": "D:\\MDS-DR-master\\src\\train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "host": "ZD-PC",
+    "username": "Admin",
+    "executable": "D:\\anaconda\\envs\\SL\\python.exe",
+    "cpu_count": 10,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2400.0,
+        "min": 0.0,
+        "max": 2400.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400.0,
+            "min": 0.0,
+            "max": 2400.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 781.398136138916,
+            "used": 583.1911849975586
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4060",
+            "memory_total": 8585740288
+        }
+    ],
+    "memory": {
+        "total": 31.77145004272461
+    }
+}

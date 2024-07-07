@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GB18030">
+    <file url="file://$PROJECT_DIR$/json_data2/multinew/test.0.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/json_data2/multinew/train.0.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/prepareData.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/result/gossip_reorder_rouge.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/result/gossip_rouge.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/result/multinews_reorder_rouge.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/result/multinews_rouge.txt" charset="GBK" />
+    <file url="PROJECT" charset="GB18030" />
+  </component>
+</project>

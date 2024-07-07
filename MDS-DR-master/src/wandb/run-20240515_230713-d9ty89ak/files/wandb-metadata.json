@@ -1,0 +1,88 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.9.0",
+    "heartbeatAt": "2024-05-15T15:07:15.766114",
+    "startedAt": "2024-05-15T15:07:13.931638",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-task",
+        "ext",
+        "-mode",
+        "train_doc",
+        "-bert_data_path",
+        "../bert_data2/multinews_doc_cls",
+        "-ext_dropout",
+        "0.1",
+        "-model_path",
+        "../models2/multinews_doc_cls",
+        "-lr",
+        "2e-3",
+        "-visible_gpus",
+        "1",
+        "-report_every",
+        "1000",
+        "-save_checkpoint_steps",
+        "1000",
+        "-batch_size",
+        "3000",
+        "-train_steps",
+        "10000",
+        "-accum_count",
+        "2",
+        "-valid_per_steps",
+        "1000",
+        "-log_file",
+        "../logs/multinews.log",
+        "-use_interval",
+        "true",
+        "-warmup_steps",
+        "2000",
+        "-max_pos",
+        "512",
+        "-test_summary_num_sents",
+        "11",
+        "-block_trigram",
+        "false",
+        "-result_path",
+        "../results2/multinews_doc_cls"
+    ],
+    "state": "running",
+    "program": "D:\\MDS-DR-master\\src\\train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "host": "ZD-PC",
+    "username": "Admin",
+    "executable": "D:\\anaconda\\envs\\SL\\python.exe",
+    "cpu_count": 10,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2400.0,
+        "min": 0.0,
+        "max": 2400.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400.0,
+            "min": 0.0,
+            "max": 2400.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 781.398136138916,
+            "used": 555.838939666748
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4060",
+            "memory_total": 8585740288
+        }
+    ],
+    "memory": {
+        "total": 31.77145004272461
+    }
+}
