@@ -38,6 +38,12 @@ PreSumm-dev生成的摘要结果放在\PreSumm-dev\results\
 摘要生成模型放在\PreSumm-dev\models\PreSumm\
 
 ## Run
+重排序模型的训练过程可以参考MDS-DR-master文件夹下的README.md文件 
+
+PreSumm生成摘要模型的训练过程可以参考 PreSumm-dev文件夹下的README.md文件
+
+下面的运行过程是直接下载我训练好的模型和已经全部处理好的数据就可以运行，下载链接https://drive.google.com/drive/folders/1Q4yjoCZYh-sN_mlCLa6mv3iFCWXKaiyH?usp=sharing
+
 1、对多文档数据进行排序（以multinews数据集为例）
 
 ```bash
