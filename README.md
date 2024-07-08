@@ -1,5 +1,5 @@
 # MDS
-多文档摘要生成-文档重排序复现实验
+多文档摘要生成-有监督方法文档重排序 + PreSumm 模型复现实验
 复现论文：Read Top News First: A Document Reordering Approach for Multi-Document News Summarization
 
 ## Structure
